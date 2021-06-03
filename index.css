@@ -116,3 +116,62 @@ figure{
     margin: 5px 5px;
     margin-bottom: 10px;
 }
+
+/* Locations*/
+#Locations{
+    margin-top: 60px;
+    height: 500px;
+    width: 1200px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    background-color: transparent;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+#section-title{
+    text-align: center;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.locations-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 2%;
+}
+
+.location-square{
+    width: 300px;
+
+}
+
+#eastbay{
+    margin: 0 40px;
+}
+
+#contact{
+    text-align: center;
+    height: 200px;
+}
+
+footer{
+    align-items: left;
+    width: 70%;
+    display: flex;
+}
+
+footer p{
+    justify-content: left;
+}
